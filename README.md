@@ -31,3 +31,29 @@
 
 # 프로젝트 기술
 ![스크린샷 2023-04-22 오전 12 04 25](https://user-images.githubusercontent.com/97227920/233669939-4fbc6eed-2c68-41e2-a728-659bc8795cee.png)
+
+
+# 서비스 상세 기능 소개
+
+## 게시판 기능
+
+### API 명세서
+|Page|Method|URL|Description|
+|----|----|----|----------|
+|ReportBoard|Get|/reportBoard/get|실종 게시판 상세 글 조회|
+|ReportBoard|Post|/reportBoard/register|실종 게시판 글 작성|
+|ReportBoard|Post|/reportBoard/update|실종 게시판 글 수정|
+|ReportBoard|Post|/reportBoard/delete|실종 게시판 글 삭제|
+
+<br>
+
+|Page|Method|URL|Description|
+|----|----|----|----------|
+|ProtectBoard|Get|/protectBoard/list|보호 글 전체 리스트 조회|
+|ProtectBoard|Get|/protectBoard/get|보호 게시판 상세 글 조회|
+|ProtectBoard|Post|/protectBoard/register|보호 게시판 글 작성|
+|ProtectBoard|Post|/protectBoard/update|보호 게시판 글 수정|
+|ProtectBoard|Post|/protectBoard/delete|보호 게시판 글 삭제|
+
+
+### 실종 아동 매칭 로직
